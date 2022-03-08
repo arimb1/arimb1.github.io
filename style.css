@@ -30,6 +30,12 @@ nav {
     padding-bottom: 1rem;
     font-size: 1.25rem;
     color: black;
+    margin-right: 0;
+}
+
+#header {
+    margin-left: 5rem;
+    margin-right: 3rem;
 }
 
 #about2{
