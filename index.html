@@ -8,25 +8,25 @@
     <!-- Bootstrap CSS -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
     <link rel="stylesheet" href="style.css">
-    <script src="script.js"></script>
+    <script src="script.js" defer></script>
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@1,800&display=swap" rel="stylesheet">
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 
+    <!-- magnific popup ccs file -->
+    <link rel="stylesheet" href="Magnific-Popup/dist/magnific-popup.css">
 
     <title>Portfolio</title>
 
-    <!-- magnific popup ccs file -->
-    <link rel="stylesheet" href="Magnific-Popup/dist/magnific-popup.css">
 
 
 </head>
 <body>
     <!-- navbar -->
     <nav class="navbar navbar-expand-lg navbar-dark fixed-top" style="background-color: #041562;">
-        <div class="container-fluid ms-5">
+        <div class="container-fluid my-1 ms-5">
             <img src="img/king.png" alt="Profile" class="d-inline-block align-text-top">          
             <a class="navbar-brand ms-4 me-6" href="#">Arimbi</a>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -173,7 +173,6 @@
               </div>
               <div class="gallery-content mt-3">
                 <h4 class="gallery-title"><a href="img/isi-portfolio/gallery/usecase.jpg">Usecase Diagram</a></h4>
-                <p style="color: lightcyan;">ticket purchasing.</p>
               </div>
             </div>
           </div>
@@ -185,7 +184,6 @@
               </div>
               <div class="gallery-content mt-3">
                 <h4 class="gallery-title"><a href="img/isi-portfolio/gallery/activity.jpeg">Activity Diagram</a></h4>
-                <p style="color: lightcyan;">login process.</p>
               </div>
             </div>
           </div>
@@ -232,8 +230,7 @@
         </div>
 
         <div class="row mt-4">
-          <div class="col-lg-4 col-md-6 col-sm-6" data-aos="zoom-in-right"
-          data-aos-anchor-placement="center-center" data-aos-duration="800">
+          <div class="col-lg-4 col-md-6 col-sm-6">
             <div class="single-work text-center mt-30 mb-5">
               <div class="work-image">
                 <a href="img/isi-portfolio/gallery/Web.jpeg" class="test-popup-link"><img src="img/isi-portfolio/gallery/Web2.jpeg" alt="WEB" style="height: 300px;"></a>
@@ -246,8 +243,7 @@
           </div>
         </div>
 
-        <div class="col-lg-4 col-md-6 col-sm-6" data-aos="zoom-in-down"
-        data-aos-anchor-placement="center-center" data-aos-duration="800">
+        <div class="col-lg-4 col-md-6 col-sm-6">
           <div class="single-work text-center mt-30 mb-5">
             <div class="work-image">
               <a href="img/show-gui.png" class="test-popup-link"><img src="img/gui.png" alt="GUI" style="height: 300px;"></a>
@@ -260,8 +256,7 @@
           </div>
         </div>
 
-          <div class="col-lg-4 col-md-6 col-sm-6" data-aos="zoom-in-left"
-          data-aos-anchor-placement="center-center" data-aos-duration="800">
+          <div class="col-lg-4 col-md-6 col-sm-6">
             <div class="single-work text-center mt-30 mb-5">
               <div class="work-image">
                 <a href="img/menu2.png" class="test-popup-link"><img src="img/menu.png" alt="Switch Case" style="height: 300px;"></a>
@@ -296,7 +291,7 @@
         </div>
 
         <div class="row justify-content-center">
-          <div class="col-lg-4 col-md-6 col-sm-7" data-aos="zoom-in" data-aos-duration="800">
+          <div class="col-lg-4 col-md-6 col-sm-7">
             <div class="contact-box text-center">
               <div class="contact-icon">
                 <img src="img/location.png" alt="Address">
@@ -308,7 +303,7 @@
             </div>
           </div>
 
-          <div class="col-lg-4 col-md-6 col-sm-7" data-aos="zoom-in" data-aos-duration="800">
+          <div class="col-lg-4 col-md-6 col-sm-7">
             <div class="contact-box text-center">
               <div class="contact-icon">
                 <img src="img/whatsapp.png" alt="Phone Number">
@@ -320,7 +315,7 @@
             </div>
           </div>
 
-          <div class="col-lg-4 col-md-6 col-sm-7" data-aos="zoom-in" data-aos-duration="800">
+          <div class="col-lg-4 col-md-6 col-sm-7">
             <div class="contact-box text-center">
               <div class="contact-icon">
                 <img src="img/message.png" alt="Email">
@@ -337,7 +332,277 @@
       <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#CDDEFF" fill-opacity="1" d="M0,256L13.3,261.3C26.7,267,53,277,80,250.7C106.7,224,133,160,160,160C186.7,160,213,224,240,224C266.7,224,293,160,320,112C346.7,64,373,32,400,21.3C426.7,11,453,21,480,53.3C506.7,85,533,139,560,181.3C586.7,224,613,256,640,240C666.7,224,693,160,720,133.3C746.7,107,773,117,800,144C826.7,171,853,213,880,202.7C906.7,192,933,128,960,133.3C986.7,139,1013,213,1040,218.7C1066.7,224,1093,160,1120,133.3C1146.7,107,1173,117,1200,138.7C1226.7,160,1253,192,1280,224C1306.7,256,1333,288,1360,261.3C1386.7,235,1413,149,1427,106.7L1440,64L1440,0L1426.7,0C1413.3,0,1387,0,1360,0C1333.3,0,1307,0,1280,0C1253.3,0,1227,0,1200,0C1173.3,0,1147,0,1120,0C1093.3,0,1067,0,1040,0C1013.3,0,987,0,960,0C933.3,0,907,0,880,0C853.3,0,827,0,800,0C773.3,0,747,0,720,0C693.3,0,667,0,640,0C613.3,0,587,0,560,0C533.3,0,507,0,480,0C453.3,0,427,0,400,0C373.3,0,347,0,320,0C293.3,0,267,0,240,0C213.3,0,187,0,160,0C133.3,0,107,0,80,0C53.3,0,27,0,13,0L0,0Z"></path></svg>
     <!-- akhir contact -->
 
+    <section id="latihan" style="box-sizing: border-box; margin: 0; padding: 0;">
+      <div class="container justify-content-center py-0">
 
+        <div class="row mt-4" id="js">
+          <div class="col-lg-6 col-md-6 col-sm-6">
+            <div class="single-work text-center mt-30" style="background-image: url(pict.jpg); border-radius: 15px; color: white; padding: 5rem 0;">
+              <h1 class="ny">New Year's Eve</h1>
+
+              <div class="countdown-container">
+                  <div class="countdown-el days-c">
+                      <p class="big-text" id="days">0</p>
+                      <span>days</span>
+                  </div>
+          
+                  <div class="countdown-el hours-c">
+                      <p class="big-text" id="hours">0</p>
+                      <span>hours</span>
+                  </div>
+          
+                  <div class="countdown-el mins-c">
+                      <p class="big-text" id="mins">0</p>
+                      <span>minutes</span>
+                  </div>
+          
+                  <div class="countdown-el seconds-c">
+                      <p class="big-text" id="seconds">0</p>
+                      <span>seconds</span>
+                  </div>
+              </div>
+              <script>
+                const daysEl = document.getElementById('days');
+                const hoursEl = document.getElementById('hours');
+                const minsEl = document.getElementById('mins');
+                const secondsEl = document.getElementById('seconds');
+                    
+
+                    const newYears = '31 Dec 2022';
+
+                    function countdown() {
+                        const newYearsDate = new Date(newYears);
+                        const currentDate = new Date();
+
+                        const totalSeconds = (newYearsDate - currentDate) / 1000;
+
+                        const days = Math.floor(totalSeconds / 3600 / 24);
+                        const hours = Math.floor(totalSeconds / 3600) % 24;
+                        const mins = Math.floor(totalSeconds / 60) % 60;
+                        const seconds = Math.floor(totalSeconds) % 60;
+
+                        daysEl.innerHTML = days;
+                        hoursEl.innerHTML = formatTime(hours);
+                        minsEl.innerHTML = formatTime(mins);
+                        secondsEl.innerHTML = formatTime(seconds);
+                    }
+
+                    function formatTime(time) {
+                            return time < 10 ? `0${time}` : time;
+                    }
+
+
+                // initial call
+                countdown();
+
+                setInterval(countdown, 1000);
+              </script>
+            </div>
+          </div>
+
+          <div class="col-lg-6 col-md-6 col-sm-6">
+            <div class="single-work mt-30 mb-5" style="
+              font-family: 'Poppins', sans-serif;">
+
+              <div class="quiz-container" id="quiz">
+                <div class="quiz-header py-5">
+                    <h2 id="question" style="margin: 2rem;
+                    text-align: center;">Question Text</h2>
+                    <ul style="list-style-type: none; padding: 0; margin-top: 1.5rem; margin-left: 4rem;">
+                        <li>
+                            <input type="radio" id="a" name="answer" class="answer">
+                            <label id="a_text" for="a">Answers</label>
+                        </li>
+                        <li>
+                            <input type="radio" id="b" name="answer" class="answer">
+                            <label id="b_text" for="b">Answers</label>
+                        </li>
+                        <li>
+                            <input type="radio" id="c" name="answer" class="answer">
+                            <label id="c_text" for="c">Answers</label>
+                        </li>
+                        <li>
+                            <input type="radio" id="d" name="answer" class="answer">
+                            <label id="d_text" for="d">Answers</label>
+                        </li>
+                    </ul>            
+                </div>
+                <button id="submit">Submit</button>
+              </div>
+                <script>
+                  const quizData = [
+                  {
+                      question: "What is the most used programming language in 2021?",
+                      a: "Java",
+                      b: "C",
+                      c: "Python",
+                      d: "JavaScript",
+                      correct: "c",    
+                  }, 
+                  {
+                      question: "What does HTML stand for?",
+                      a: "Hypertext Markdown Language",
+                      b: "Hightext Markup Language",
+                      c: "Hypertext Markup Language",
+                      d: "Hightext Markdown Language",
+                      correct: "c",
+                  }, 
+                  {
+                      question: "What is the capital of America?",
+                      a: "Washington, D.C.",
+                      b: "San Francisco",
+                      c: "New York",
+                      d: "Washington",
+                      correct: "a",
+                  }, 
+                  {
+                      question: "What is a flying dinosaur called?",
+                      a: "Velociraptor",
+                      b: "Pterodactyl",
+                      c: "Archaeopteryx",
+                      d: "Stegosaurus",
+                      correct: "b",
+                  }, 
+                  {
+                      question: "How many letters are there in the alphabet?",
+                      a: "23",
+                      b: "24",
+                      c: "25",
+                      d: "26",
+                      correct: "d",
+                  }
+              ]
+
+                  const quiz = document.getElementById("quiz");
+                  const answerELs = document.querySelectorAll(".answer");
+                  const questionEl = document.getElementById("question");
+                  const a_text = document.getElementById("a_text");
+                  const b_text = document.getElementById("b_text");
+                  const c_text = document.getElementById("c_text");
+                  const d_text = document.getElementById("d_text");
+                  const submitBtn = document.getElementById("submit");
+
+                  let currentQuiz = 0;
+                  let score = 0;
+
+                  loadQuiz();
+
+                  function loadQuiz() {
+                    deselectAnswers();
+
+                    const currentQuizData = quizData [currentQuiz];
+
+                    questionEl.innerText = currentQuizData.question;
+                    a_text.innerText = currentQuizData.a;
+                    b_text.innerText = currentQuizData.b;
+                    c_text.innerText = currentQuizData.c;
+                    d_text.innerText = currentQuizData.d;
+                  }
+
+                  function getSelected() {
+                    let answer = undefined;
+
+                    answerELs.forEach((answerEl) => {
+                        if(answerEl.checked) {
+                            answer = answerEl.id;
+                        }
+                    });
+
+                    return answer;
+                  }
+
+                  function deselectAnswers() {
+                    answerELs.forEach((answerEl) => {
+                        answerEl.checked = false;
+                    });
+
+                  }
+
+                  submitBtn.addEventListener("click", () => {
+                    // check to see the answer
+                    const answer = getSelected();
+                    
+                    if(answer) {
+                        if (answer === quizData[currentQuiz].correct) {
+                            score++;
+                        }
+
+                        currentQuiz++;
+                        if (currentQuiz < quizData.length) {
+                            loadQuiz();
+                        } else {
+                            quiz.innerHTML = `
+                                <h2 class="score">You answered correctly at ${score}/${quizData.length} questions.</h2> 
+                                
+                                <button onclick="location.reload()" id="submit">Reload</button>    
+                            `;
+                        }
+                    }
+                  })
+
+                </script>
+            </div>
+          </div>
+
+          <div class="col-lg-6 col-md-6 col-sm-6" id="todo">
+            <div class="single-work mt-30 mb-5" style="
+              font-family: 'Poppins', sans-serif;">
+
+              <div class="container-todo">
+                <h1 style="font-family: 'Poppins',sans-serif; font-weight: 800; font-size: 4rem; text-align: center; margin-bottom: 1.7rem;">To-Do List</h1>
+                  <div id="newtask">
+                      <input type="text" placeholder="Task to be done...">
+                      <button type="button" class="btn btn-outline-primary" id="push">Add</button>
+                  </div>
+                  <div id="tasks"></div>
+
+                  <script>
+                    document.querySelector('#push').onclick = function(){
+                      if(document.querySelector('#newtask input').value.length == 0){
+                          alert("Enter the task first!")
+                      }
+                      else{
+                          document.querySelector('#tasks').innerHTML += `
+                              <div class="task">
+                                  <span id="taskname">
+                                      ${document.querySelector('#newtask input').value}
+                                  </span>
+                                  <button type="button" class="delete btn btn-outline-danger">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-trash3" viewBox="0 0 16 16">
+                                    <path d="M6.5 1h3a.5.5 0 0 1 .5.5v1H6v-1a.5.5 0 0 1 .5-.5ZM11 2.5v-1A1.5 1.5 0 0 0 9.5 0h-3A1.5 1.5 0 0 0 5 1.5v1H2.506a.58.58 0 0 0-.01 0H1.5a.5.5 0 0 0 0 1h.538l.853 10.66A2 2 0 0 0 4.885 16h6.23a2 2 0 0 0 1.994-1.84l.853-10.66h.538a.5.5 0 0 0 0-1h-.995a.59.59 0 0 0-.01 0H11Zm1.958 1-.846 10.58a1 1 0 0 1-.997.92h-6.23a1 1 0 0 1-.997-.92L3.042 3.5h9.916Zm-7.487 1a.5.5 0 0 1 .528.47l.5 8.5a.5.5 0 0 1-.998.06L5 5.03a.5.5 0 0 1 .47-.53Zm5.058 0a.5.5 0 0 1 .47.53l-.5 8.5a.5.5 0 1 1-.998-.06l.5-8.5a.5.5 0 0 1 .528-.47ZM8 4.5a.5.5 0 0 1 .5.5v8.5a.5.5 0 0 1-1 0V5a.5.5 0 0 1 .5-.5Z"/>
+                                    </svg>                                
+                                  </button>
+                              </div>
+                          `;
+
+                          var current_tasks = document.querySelectorAll(".delete");
+                          for(var i=0; i<current_tasks.length; i++){
+                              current_tasks[i].onclick = function(){
+                                  this.parentNode.remove();
+                              }
+                          }
+
+                          var tasks = document.querySelectorAll(".task");
+                          for(var i=0; i<tasks.length; i++){
+                              tasks[i].onclick = function(){
+                                  this.classList.toggle('completed');
+                              }
+                          }
+
+                          document.querySelector("#newtask input").value = "";
+                      }
+                    }
+                  </script>
+              </div>
+
+            </div>
+          </div>
+
+        </div>
+        
+      </div>
+      
+    </section>
 
       <!-- footer -->
       <footer class="footer text-center mt-5">
